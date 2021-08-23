@@ -1,8 +1,6 @@
-package programmers_2월;
-import java.util.*;
-public class 가장큰정사각형찾기{
-    int [][] result= new int[1001][1001];
-
+class Solution
+{
+   int [][] result= new int[1001][1001];
     public int solution(int [][]board){
     	int answer=0;
     	int row=board.length;

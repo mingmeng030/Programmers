@@ -1,7 +1,4 @@
-package programmers_2¿ù;
-import java.util.*;
-public class ¶¥µû¸Ô±â {
-	class Solution {
+class Solution {
 	    int solution(int[][] land) {
 	    	int l=land.length-1;
 	        for(int i = 1 ; i < l+1 ; i++) {
@@ -12,5 +9,4 @@ public class ¶¥µû¸Ô±â {
 	        }
 	        return Math.max(land[l][0], Math.max(land[l][1], Math.max(land[l][2], land[l][3])));
 	    }
-	}
 }
